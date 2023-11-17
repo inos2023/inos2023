@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "智能原生社区",
+    "description": "The title in the navbar"
+  },
+  "item.label.Docs": {
+    "message": "技术分享",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Blog": {
+    "message": "技术博客",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Community": {
+    "message": "技术成果",
+    "description": "Navbar item with label Community"
+  },
+  "item.label.Users": {
+    "message": "用户",
+    "description": "Navbar item with label Users"
+  }
+}

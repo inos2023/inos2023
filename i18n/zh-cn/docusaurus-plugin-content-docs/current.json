@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Functions": {
+    "message": "Function",
+    "description": "The label for category Functions in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Meetup": {
+    "message": "最近活动",
+    "description": "The label for category Meetup in sidebar tutorialSidebar"
+  }
+}
