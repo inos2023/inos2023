@@ -19,7 +19,7 @@ function UnderConstruction() {
       <img src={website} width="307px" height="226px"></img>
       <div className="underConstructionClass" >
         <div>
-          <MdMail />
+
           <Translate id="underConstruction.text" />
         </div>
         <div>
