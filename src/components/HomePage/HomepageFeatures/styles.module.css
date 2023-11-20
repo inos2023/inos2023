@@ -10,3 +10,11 @@
   height: 200px;
   width: 200px;
 }
+
+.title {
+  font-size: 20px;
+}
+
+.description {
+  font-size: 14px;
+}

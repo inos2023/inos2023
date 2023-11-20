@@ -72,7 +72,7 @@
 .footer--dark {
   --ifm-footer-background-color: #000;
   --ifm-footer-link-color: #adb0b7;
-  padding-top: 80px;
+  /* padding-top: 80px; */
 }
 
 .footer__logo {
@@ -88,8 +88,8 @@
 }
 
 .footer__copyright {
-  font-size: 18px;
-  margin-top: 40px;
+  font-size: 22px;
+  /* margin-top: 40px; */
 }
 
 @media (min-width: 997px) {
@@ -116,13 +116,13 @@
 .header-github-link {
   display: inline-flex;
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 16px;
   display: flex;
   align-items: center;
 }
-html[data-theme="dark"] .header-github-link{
-  color: #1b1b1d!important;
+html[data-theme='dark'] .header-github-link {
+  color: #1b1b1d !important;
 }
 
 .header-github-link > span {
@@ -138,18 +138,18 @@ html[data-theme="dark"] .header-github-link{
   margin-right: 8px;
 }
 
-.inputClass{
-  background-color: #F6F7F8;
+.inputClass {
+  background-color: #f6f7f8;
   /* border-radius: 16px; */
   border-style: none;
   height: 30px;
   width: 100px;
 }
-.inputClass:focus-visible{
+.inputClass:focus-visible {
   outline: 0 !important;
 }
-.SearchBarClass{
-  background-color: #F6F7F8;
+.SearchBarClass {
+  background-color: #f6f7f8;
   border-radius: 16px;
   border-style: none;
   height: 32px;

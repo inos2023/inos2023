@@ -1,7 +1,10 @@
 .container {
-  background-color: #f5f9fb;
-  margin-left: 80px;
-  margin-right: 80px;
+  background-color: #f7faff;
+  // margin-left: 80px;
+  // margin-right: 80px;
+}
+html[data-theme='dark'] .container {
+  background-color: #2b3137 !important;
 }
 
 .content {
@@ -10,22 +13,25 @@
   margin: 0 auto;
   padding-top: 72px;
   padding-left: 68px;
-  background-color: #F7FAFF;
-    background-image: url(./编组4.svg);
-    background-size: 50%;
-    background-position: right;
+  background-color: #f7faff;
+  background-image: url(./01-2banner图@2x.png);
+  background-size: 50%;
+  background-position: right;
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
+html[data-theme='dark'] .content {
+  background-color: #2b3137 !important;
+}
 
 .title {
-  font-size: 68px;
-  margin-bottom: 32px;
+  font-size: 50px;
+  // margin-bottom: 32px;
 }
 
 .tagLine {
-  font-size: 32px;
-  margin-bottom: 32px;
+  font-size: 18px;
+  // margin-bottom: 32px;
 }
 
 .getStartedButton {
@@ -36,6 +42,7 @@
   border-radius: 8px;
   background: linear-gradient(97.73deg, #76e1f9 7.7%, #1949e7 97.25%);
   transition: transform 0.25s ease-in-out;
+  margin-top: 32px;
 
   &:hover {
     text-decoration: none;
@@ -49,7 +56,9 @@
 }
 
 .getStartedDescription {
-  margin-right: 712px
+  margin-top: 30px;
+  margin-right: 712px;
+  font-size: 14px;
 }
 
 @media (max-width: 1440px) {
