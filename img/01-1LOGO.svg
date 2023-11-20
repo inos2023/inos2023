@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>01-1LOGO</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1440" height="56"></rect>
+        <filter x="-0.5%" y="-9.8%" width="100.9%" height="123.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.0823529412   0 0 0 0 0.160784314  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter id="filter-3">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#27CABB" offset="0%"></stop>
+            <stop stop-color="#5A8DEE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01Light" transform="translate(-32.000000, -16.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="1081"></rect>
+            <g id="Rectangle-2-Copy">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="01-1LOGO" transform="translate(32.000000, 16.000000)">
+                <rect id="矩形" fill="#5086E7" x="0" y="0" width="24" height="24" rx="2"></rect>
+                <g filter="url(#filter-3)" id="LOGO备份-3">
+                    <g transform="translate(2.000000, 1.000000)">
+                        <path d="M9.76737285,10.6866499 L10.038,10.542 L10.0388991,10.5415114 L13.3067074,8.80270419 L14.5411476,8.14596096 L14.5411456,19.472961 L12.4951456,20.555961 L12.495,20.552 L10.9623927,21.37203 L10.96,21.368 L9.7651456,22.000961 L9.76514756,10.684961 L9.76737285,10.6866499 Z M9.08314756,10.302961 L9.0831456,21.642961 L8.023,21.081 L7.03679377,20.5861434 L6.944,20.28 L4.989,15.051 L4.9891456,19.475961 L2.9421456,18.391961 L2.94214756,6.86896096 L4.98914756,8.01396096 L4.9899038,8.04941263 L4.997,8.077 L7.036,13.576 L7.03614756,9.15896096 L9.08314756,10.302961 Z M17.271,6.701 L17.953,6.338 L17.9531476,6.33096096 L20.0001476,5.24196096 L20.0001456,9.03596096 L17.9531456,10.130961 L17.953,8.61 L17.271,8.974 L17.271,11.236 L18.308,10.684 L20.0001456,9.78296096 L20.0001456,16.582961 L17.9531456,17.665961 L17.953,17.664 L16.5572253,18.4103192 L16.554,18.405 L15.2241456,19.110961 L15.2241456,15.315961 L17.2711456,14.221961 L17.271,15.754 L17.953,15.391 L17.953,13.108 L16.2843066,14.0006609 L16.282,13.997 L15.2241456,14.564961 L15.2241476,7.78296096 L17.2711476,6.69396096 L17.271,6.701 Z M12.495,11.506 L11.812,11.871 L11.812,18.644 L12.495,18.28 L12.495,11.506 Z M1.72225859,4.31083581 L4.08184191,5.62009109 L2.26071717,6.49450959 L2.2601456,18.030961 L0.0231456017,16.846961 L0.023,5.249 L0,5.23611477 L1.72225859,4.31083581 Z M9.88425112,4.13193923 L13.146,5.949 L13.213,5.986 L13.234607,5.99889835 L9.72674778,7.87627242 L8.0073435,6.91888511 L6.42832307,6.02948707 L9.88425112,4.13193923 Z M6.01334879,2.00379169 L9.18574561,3.75617228 L5.67947909,5.62009109 L2.51178674,3.86861859 L6.01334879,2.00379169 Z M13.7799071,2.04612596 L17.3674475,3.81194139 L13.8944733,5.62009109 L10.5312855,3.78188112 L13.7799071,2.04612596 Z M9.7659804,0 L13.0688828,1.68571662 L9.88425112,3.40691138 L6.69961941,1.63312511 L8.2871689,0.779523308 L9.7659804,0 Z" id="形状结合" fill="url(#linearGradient-4)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

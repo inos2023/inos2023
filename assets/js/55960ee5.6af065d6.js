@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbyconity=self.webpackChunkbyconity||[]).push([[4121],{8070:s=>{s.exports=JSON.parse('[{"label":"Docs","permalink":"/docs/tags/docs","count":71},{"label":"ChatGPT","permalink":"/docs/tags/chat-gpt","count":1}]')}}]);
