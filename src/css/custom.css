@@ -62,7 +62,7 @@
 }
 
 .navbar__brand + .navbar__item {
-  margin-left: auto;
+  margin-left: inherit;
 }
 
 .navbar .dropdown__link {
@@ -116,6 +116,13 @@
 .header-github-link {
   display: inline-flex;
   align-items: center;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+}
+html[data-theme="dark"] .header-github-link{
+  color: #1b1b1d!important;
 }
 
 .header-github-link > span {
@@ -129,4 +136,25 @@
   height: 18px;
   width: 18px;
   margin-right: 8px;
+}
+
+.inputClass{
+  background-color: #F6F7F8;
+  /* border-radius: 16px; */
+  border-style: none;
+  height: 30px;
+  width: 100px;
+}
+.inputClass:focus-visible{
+  outline: 0 !important;
+}
+.SearchBarClass{
+  background-color: #F6F7F8;
+  border-radius: 16px;
+  border-style: none;
+  height: 32px;
+  width: 142px;
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
 }

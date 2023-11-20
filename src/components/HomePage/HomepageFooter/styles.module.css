@@ -1,0 +1,76 @@
+.features {
+  /* border-style: solid; */
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  /* width: 222px; */
+  padding-top: 15px;
+  background-color: lightgray;
+  height: 250px;
+}
+
+.featureSvg {
+  height: 30px;
+  width: 30px;
+  margin-top: 12px;
+  margin-left: 32px;
+}
+.backUnset{
+  width: 100%;
+  background: unset;
+}
+.alignCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mediaBody{
+  display: flex;
+  /* justify-content: center;
+  align-items: center;
+  background: unset; */
+}
+.cloumnCenter{
+  width: 289px;
+  height: 90px;
+  background: #fff!important;
+  display: flex;
+  align-items: center;
+  background: unset;
+  margin-left:64px;
+  border-radius: 16px;
+  cursor: pointer;
+  position: relative;
+}
+.cloumnCenter:hover{
+  transform: scale(1.1);
+}
+.cloumnCenter:hover .hoverClass{
+  opacity: 1;
+  transform: translateX(100px) scale(2);
+}
+.hoverClass{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left:0px;
+  opacity: 1;
+  top:0;
+  background: red;
+  opacity: 0;
+  transition: all .15s ease-in-out ;
+}
+.cloumnCenter:first-child{
+  margin-left: 0;
+}
+.descripFont{
+  margin-left: 10px;
+  margin-top: 21px;
+  font-size: 18px;
+}
+html[data-theme="dark"] .descripFont{
+  color: #1b1b1d!important;
+}
+html[data-theme="dark"] .features{
+  background-color: #2C2E30!important;
+}

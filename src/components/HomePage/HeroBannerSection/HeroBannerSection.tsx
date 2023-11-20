@@ -18,11 +18,19 @@ function HeroBannerSection() {
           <Translate id="tagline" />
         </div>
 
+        <div>          
+          <body className={styles.getStartedDescription}>
+          
+          <Translate id="getStartedDescription"/>
+          </body>         
+        </div>
+
         <div>
           <Link
             className={styles.getStartedButton}
-            to="/docs/meetup/gpgpu-related-tools"
+            to="/docs/introduction/main-principle-concepts"
           >
+            
             <Translate id="getStarted" />
           </Link>
         </div>

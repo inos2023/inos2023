@@ -1,23 +1,29 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import Translate, { translate } from '@docusaurus/Translate';
-import { MdConstruction } from 'react-icons/md';
+import { MdConstruction, MdWrapText, MdSavedSearch, MdSearchOff, MdSearch, MdYoutubeSearchedFor, MdPersonSearch, MdContentPasteSearch, MdBluetoothSearching, MdLocationSearching, MdScreenSearchDesktop, MdImageSearch, MdImagesearchRoller, MdManageSearch, MdOutlineSavedSearch, MdOutlineSearchOff, MdOutlineSearch, MdOutlineYoutubeSearchedFor, MdOutlinePersonSearch, MdOutlineContentPasteSearch, MdOutlineBluetoothSearching, MdOutlineLocationSearching, MdOutlineScreenSearchDesktop, MdOutlineImageSearch, MdOutlineImagesearchRoller, MdOutlineManageSearch } from 'react-icons/md';
+import styles from './styles.module.css'
+import website from './website.png'
 
 function UnderConstruction() {
   return (
     <div
       style={{
         display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
+        flexDirection: 'row',
+        alignItems: 'top',
         marginTop: 128,
+        paddingLeft: 400
       }}
     >
-      <div style={{ fontSize: '5rem' }}>
-        <MdConstruction />
-      </div>
-      <div>
-        <Translate id="underConstruction.text" />
+      <img src={website} width="307px" height="226px"></img>
+      <div className="underConstructionClass" >
+        <div>
+          <Translate id="underConstruction.text" />
+        </div>
+        <div>
+          <Translate id="underConstruction2.text" />
+        </div>
       </div>
     </div>
   );

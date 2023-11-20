@@ -1,0 +1,12 @@
+.features {
+  /* margin-bottom: 50px; */
+  font-size: 52px;
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+  padding-top: 15px;
+  background-color: lightgray;
+}
+html[data-theme="dark"] .features{
+  background-color: #2C2E30!important;
+}

@@ -1,25 +1,25 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Intelligence Native Group',
-  tagline: '智能原生社区',
-  favicon: 'img/favicon.ico',
+  title: 'INOS',
+  tagline: 'Intelligence Native Operating System',
+  favicon: 'img/01-1LOGO.svg',
 
   // Set the production url of your site here
-  url: 'https://byconity.github.io',
+  url: 'https://inos2023.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'byconity', // Usually your GitHub org/user name.
-  projectName: 'byconity.github.io', // Usually your repo name.
+  organizationName: 'inos2023', // Usually your GitHub org/user name.
+  projectName: 'inos2023.github.io', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
@@ -35,7 +35,6 @@ const config = {
   },
 
   plugins: ['docusaurus-plugin-sass'],
-
   presets: [
     [
       'classic',
@@ -45,14 +44,14 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/ByConity/byconity.github.io/tree/main',
+          editUrl: 'https://github.com/inos2023/blog',
           editLocalizedFiles: true,
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/ByConity/byconity.github.io/tree/main',
+          editUrl: 'https://github.com/inos2023/blog',
           editLocalizedFiles: true,
         },
         theme: {
@@ -69,106 +68,123 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/byconity-social-card.png',
+      image: 'img/编组4.svg',
       navbar: {
-        title: 'Intelligence Native Group',
-        hideOnScroll: true,
+        title: 'INOS',
+        hideOnScroll: false,
         logo: {
-          alt: 'ByConity Logo',
+          alt: 'INOS Logo',
           src: 'img/logo.png',
         },
         items: [
           {
             type: 'doc',
-            docId: 'meetup/gpgpu-related-tools',
+            docId: 'introduction/main-principle-concepts',
             position: 'left',
             label: 'Docs',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           { to: '/community', label: 'Community', position: 'left' },
           { to: '/users', label: 'Users', position: 'left' },
+          // {
+          //   position: 'right',
+          //   html: '<select><option>111</option><option value="http://localhost:3004/">222</option></select>',
+          //   // to:`${window.location.pathname}`
+          //   to:'/docs/introduction/recommended-use-case'
+          // },
           {
             type: 'localeDropdown',
             position: 'right',
           },
           {
-            href: 'https://github.com/ByConity/ByConity',
+            href: 'https://github.com/inos2023/inos2023.github.io',
             position: 'right',
 
             // These allows adding Github icon using custom styles
             html: '<span>GitHub</span>',
             className: 'header-github-link',
           },
+          {
+            position: 'right',
+            html: '<div class="SearchBarClass"><img src="/img/01-11搜索.svg" width="18px" height="18px"><input class="inputClass" placeholder="搜索"></div>',
+            className: 'search-input',
+            // to:`${window.location.pathname}`
+            to:'/docs/introduction/recommended-use-case'
+          },
         ],
       },
       footer: {
+
         style: 'dark',
-        logo: {
-          alt: 'ByConity',
-          src: 'img/footer-logo.svg',
-        },
+        // logo: {
+        //   alt: 'ZJLab Logo',
+        //   src: 'img/footer-logo.svg',
+        // },
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Docs',
-                to: '/docs/meetup/gpgpu-related-tools',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Community',
-                href: '/community',
-              },
-              {
-                label: 'Users',
-                href: '/users',
-              },
-              {
-                label: 'Bilibili',
-                href: 'https://space.bilibili.com/2065226922?spm_id_from=333.1007.0.0',
-              },
-              // {
-              //   label: "Twitter",
-              //   href: "",
-              // },
-              // {
-              //   label: "Slack",
-              //   href: "",
-              // },
-              // {
-              //   label: "Meetup",
-              //   href: "",
-              // },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/ByConity/ByConity',
-              },
-            ],
-          },
+          // {
+          //   title: '联系我们'
+          // },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Docs',
+          //       to: '/docs/introduction/main-principle-concepts',
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: 'Community',
+          //   items: [
+          //     {
+          //       label: 'Community',
+          //       href: '/community',
+          //     },
+          //     {
+          //       label: 'Users',
+          //       href: '/users',
+          //     },
+          //     {
+          //       label: 'Bilibili',
+          //       href: 'https://space.bilibili.com/2065226922?spm_id_from=333.1007.0.0',
+          //     },
+          //     // {
+          //     //   label: "Twitter",
+          //     //   href: "",
+          //     // },
+          //     // {
+          //     //   label: "Slack",
+          //     //   href: "",
+          //     // },
+          //     // {
+          //     //   label: "Meetup",
+          //     //   href: "",
+          //     // },
+          //   ],
+          // },
+          // {
+          //   title: 'More',
+          //   items: [
+          //     {
+          //       label: 'Blog',
+          //       to: '/blog',
+          //     },
+          //     {
+          //       label: 'GitHub',
+          //       href: 'https://github.com/inos2023/inos2023.github.io',
+          //     },
+          //   ],
+          // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ByteDance.`,
+        copyright: `Copyright © ${new Date().getFullYear()} INOS`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      colorMode: {
-        disableSwitch: true,
-      },
+      // colorMode: {
+      //   disableSwitch: true,
+      // },
     }),
 };
 

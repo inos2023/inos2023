@@ -15,10 +15,10 @@ export default function FooterLayout({
       })}
     >
       <div className="container">
-        <div className="row">
+        {/* <div className="row">
           {logo && <div className="col col--3">{logo}</div>}
           <div className="col">{links}</div>
-        </div>
+        </div> */}
         {copyright && (
           <div className="footer__bottom text--center">{copyright}</div>
         )}

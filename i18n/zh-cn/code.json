@@ -271,7 +271,10 @@
     "description": "The title of the tag list page"
   },
   "underConstruction.text": {
-    "message": "抓紧建设中"
+    "message": "暂时无具体内容"
+  },
+  "underConstruction2.text": {
+    "message": "敬请期待......"
   },
   "communityPage.title": {
     "message": "技术成果"
@@ -290,6 +293,9 @@
   },
   "getStarted": {
     "message": "快速开始"
+  },
+  "getStartedDescription": {
+    "message": "面向陆海空天、信创等国家重大战略领域，实现一个完全自主可控、先进智能、便捷易用、国产适配的智能原生操作系统，向下屏蔽异构硬件差异，向上支撑领域专用智能计算，具备轻量化、低消耗、高可靠、安全性、实时性等特点。"
   },
   "homePage.getStartedSection.contribute.title": {
     "message": "开源代码"
@@ -322,7 +328,7 @@
     "message": "社区优势"
   },
   "tagline": {
-    "message": "智能原生社区-INCG"
+    "message": "Intelligence Native Operating System"
   },
   "homePage.communitySection.github.title": {
     "message": "Github"
@@ -337,7 +343,7 @@
     "message": "Discord"
   },
   "homePage.communitySection.twitter.title": {
-    "message": "Twitter"
+    "message": "推特"
   },
   "homePage.communitySection.slack.title": {
     "message": "Slack"

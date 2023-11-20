@@ -1,0 +1,10 @@
+.iconLanguage {
+  vertical-align: text-bottom;
+  margin-right: 5px;
+}
+.dropdownClass{
+  opacity: 1;
+  pointer-events: all;
+  transform: translateY(-1px);
+  visibility: visible;
+}

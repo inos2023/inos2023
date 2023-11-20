@@ -5,12 +5,15 @@
 }
 
 .content {
-  max-width: 1280px;
-  min-height: 740px;
+  max-width: 1440px;
+  min-height: 388px;
   margin: 0 auto;
   padding-top: 72px;
   padding-left: 68px;
-  background-image: url(./hero-image.svg);
+  background-color: #F7FAFF;
+    background-image: url(./编组4.svg);
+    background-size: 50%;
+    background-position: right;
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
@@ -27,8 +30,8 @@
 
 .getStartedButton {
   display: inline-block;
-  padding: 20px 24px;
-  font-size: 24px;
+  padding: 8px 18px;
+  font-size: 20px;
   color: #fff;
   border-radius: 8px;
   background: linear-gradient(97.73deg, #76e1f9 7.7%, #1949e7 97.25%);
@@ -43,6 +46,10 @@
   &:active {
     transform: none;
   }
+}
+
+.getStartedDescription {
+  margin-right: 712px
 }
 
 @media (max-width: 1440px) {
