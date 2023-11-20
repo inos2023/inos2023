@@ -1,9 +1,36 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import Translate, { translate } from '@docusaurus/Translate';
-import { MdConstruction, MdWrapText, MdSavedSearch, MdSearchOff, MdSearch, MdYoutubeSearchedFor, MdPersonSearch, MdContentPasteSearch, MdBluetoothSearching, MdLocationSearching, MdScreenSearchDesktop, MdImageSearch, MdImagesearchRoller, MdManageSearch, MdOutlineSavedSearch, MdOutlineSearchOff, MdOutlineSearch, MdOutlineYoutubeSearchedFor, MdOutlinePersonSearch, MdOutlineContentPasteSearch, MdOutlineBluetoothSearching, MdOutlineLocationSearching, MdOutlineScreenSearchDesktop, MdOutlineImageSearch, MdOutlineImagesearchRoller, MdOutlineManageSearch } from 'react-icons/md';
-import styles from './styles.module.css'
-import website from './website.png'
+import {
+  MdConstruction,
+  MdWrapText,
+  MdSavedSearch,
+  MdSearchOff,
+  MdSearch,
+  MdYoutubeSearchedFor,
+  MdPersonSearch,
+  MdContentPasteSearch,
+  MdBluetoothSearching,
+  MdLocationSearching,
+  MdScreenSearchDesktop,
+  MdImageSearch,
+  MdImagesearchRoller,
+  MdManageSearch,
+  MdOutlineSavedSearch,
+  MdOutlineSearchOff,
+  MdOutlineSearch,
+  MdOutlineYoutubeSearchedFor,
+  MdOutlinePersonSearch,
+  MdOutlineContentPasteSearch,
+  MdOutlineBluetoothSearching,
+  MdOutlineLocationSearching,
+  MdOutlineScreenSearchDesktop,
+  MdOutlineImageSearch,
+  MdOutlineImagesearchRoller,
+  MdOutlineManageSearch,
+} from 'react-icons/md';
+import styles from './styles.module.css';
+import website from './02-1缺省页.png';
 
 function UnderConstruction() {
   return (
@@ -12,12 +39,12 @@ function UnderConstruction() {
         display: 'flex',
         flexDirection: 'row',
         alignItems: 'top',
-        marginTop: 128,
-        paddingLeft: 400
+        marginTop: 210,
+        paddingLeft: 480,
       }}
     >
       <img src={website} width="307px" height="226px"></img>
-      <div className="underConstructionClass" >
+      <div className="underConstructionClass">
         <div>
           <Translate id="underConstruction.text" />
         </div>
