@@ -7,7 +7,7 @@ import { MdEmail } from 'react-icons/md';
 
 const FeatureList = [
   {
-    link: 'https://github.com/inos2023/inos2023.github.io',
+    link: 'https://github.com/inos2023?tab=repositories',
     Svg: require('@site/static/img/01-7GIthub.svg').default,
     description: (
       <div>

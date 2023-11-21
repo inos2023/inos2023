@@ -1,7 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
@@ -97,7 +96,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/inos2023/inos2023.github.io',
+            href: 'https://github.com/inos2023?tab=repositories',
             position: 'right',
 
             // These allows adding Github icon using custom styles
@@ -109,12 +108,11 @@ const config = {
             html: '<div class="SearchBarClass"><img src="/img/01-11搜索.svg" width="18px" height="18px"><input class="inputClass" placeholder="搜索"></div>',
             className: 'search-input',
             // to:`${window.location.pathname}`
-            to:'/docs/introduction/recommended-use-case'
+            to: '/docs/introduction/recommended-use-case',
           },
         ],
       },
       footer: {
-
         style: 'dark',
         // logo: {
         //   alt: 'ZJLab Logo',
@@ -171,7 +169,7 @@ const config = {
           //     },
           //     {
           //       label: 'GitHub',
-          //       href: 'https://github.com/inos2023/inos2023.github.io',
+          //       href: 'https://github.com/inos2023?tab=repositories',
           //     },
           //   ],
           // },
