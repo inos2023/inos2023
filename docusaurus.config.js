@@ -82,19 +82,19 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/blogs', label: 'Blog', position: 'left' },
           { to: '/community', label: 'Community', position: 'left' },
-          { to: '/users', label: 'Users', position: 'left' },
+          // { to: '/users', label: 'Users', position: 'left' },
           // {
           //   position: 'right',
           //   html: '<select><option>111</option><option value="http://localhost:3004/">222</option></select>',
           //   // to:`${window.location.pathname}`
           //   to:'/docs/introduction/recommended-use-case'
           // },
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          },
+          // {
+          //   type: 'localeDropdown',
+          //   position: 'right',
+          // },
           {
             href: 'https://github.com/inos2023?tab=repositories',
             position: 'right',

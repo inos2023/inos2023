@@ -277,7 +277,10 @@
     "message": "敬请期待......"
   },
   "communityPage.title": {
-    "message": "技术成果"
+    "message": "社区"
+  },
+  "blogsPage.title": {
+    "message": "博客"
   },
   "usersPage.title": {
     "message": "用户"
