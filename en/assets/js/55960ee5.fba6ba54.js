@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbyconity=self.webpackChunkbyconity||[]).push([[121],{8070:s=>{s.exports=JSON.parse('[{"label":"Docs","permalink":"/en/docs/tags/docs","count":4}]')}}]);
