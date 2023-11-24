@@ -78,19 +78,22 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'introduction/main-principle-concepts',
+            docId: 'introduction/inos-brief',
             position: 'left',
             label: 'Docs',
           },
           { to: '/blogs', label: 'Blog', position: 'left' },
           { to: '/community', label: 'Community', position: 'left' },
+          // 禁用用户tab页面
           // { to: '/users', label: 'Users', position: 'left' },
+          // 禁用版本号下拉框
           // {
           //   position: 'right',
           //   html: '<select><option>111</option><option value="http://localhost:3004/">222</option></select>',
           //   // to:`${window.location.pathname}`
           //   to:'/docs/introduction/recommended-use-case'
           // },
+          // 禁用中文/英文下拉框
           // {
           //   type: 'localeDropdown',
           //   position: 'right',
@@ -103,13 +106,14 @@ const config = {
             html: '<span>GitHub</span>',
             className: 'header-github-link',
           },
-          {
-            position: 'right',
-            html: '<div class="SearchBarClass"><img src="/img/01-11搜索.svg" width="18px" height="18px"><input class="inputClass" placeholder="搜索"></div>',
-            className: 'search-input',
-            // to:`${window.location.pathname}`
-            to: '/docs/introduction/recommended-use-case',
-          },
+          // 禁用搜索框
+          // {
+          //   position: 'right',
+          //   html: '<div class="SearchBarClass"><img src="/img/01-11搜索.svg" width="18px" height="18px"><input class="inputClass" placeholder="搜索"></div>',
+          //   className: 'search-input',
+          //   // to:`${window.location.pathname}`
+          //   to: '/docs/introduction/recommended-use-case',
+          // },
         ],
       },
       footer: {
