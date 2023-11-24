@@ -28,7 +28,7 @@ function HeroBannerSection() {
         <div>
           <Link
             className={styles.getStartedButton}
-            to="/docs/introduction/main-principle-concepts"
+            to="/docs/introduction/inos-brief"
           >
             
             <Translate id="getStarted" />
