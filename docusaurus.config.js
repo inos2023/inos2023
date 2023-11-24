@@ -91,7 +91,7 @@ const config = {
           //   position: 'right',
           //   html: '<select><option>111</option><option value="http://localhost:3004/">222</option></select>',
           //   // to:`${window.location.pathname}`
-          //   to:'/docs/introduction/recommended-use-case'
+          //   to:'/docs/introduction/inos-brief'
           // },
           // 禁用中文/英文下拉框
           // {
@@ -112,7 +112,7 @@ const config = {
           //   html: '<div class="SearchBarClass"><img src="/img/01-11搜索.svg" width="18px" height="18px"><input class="inputClass" placeholder="搜索"></div>',
           //   className: 'search-input',
           //   // to:`${window.location.pathname}`
-          //   to: '/docs/introduction/recommended-use-case',
+          //   to: '/docs/introduction/inos-brief',
           // },
         ],
       },
@@ -131,7 +131,7 @@ const config = {
           //   items: [
           //     {
           //       label: 'Docs',
-          //       to: '/docs/introduction/main-principle-concepts',
+          //       to: '/docs/introduction/inos-brief',
           //     },
           //   ],
           // },
