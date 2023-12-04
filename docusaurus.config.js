@@ -99,7 +99,7 @@ const config = {
           //   position: 'right',
           // },
           {
-            href: 'https://github.com/inos2023?tab=repositories',
+            href: 'https://github.com/inos2023/inos',
             position: 'right',
 
             // These allows adding Github icon using custom styles
@@ -173,7 +173,7 @@ const config = {
           //     },
           //     {
           //       label: 'GitHub',
-          //       href: 'https://github.com/inos2023?tab=repositories',
+          //       href: 'https://github.com/inos2023/inos',
           //     },
           //   ],
           // },
